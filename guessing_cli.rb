@@ -3,4 +3,5 @@ def run_guessing_game
   number = rand(6) + 1 
   input = gets.chomp 
   if input == "exit"
-    puts "Goodbye"
+    puts "Goodbye!"
+  elsif input == number.to_s
